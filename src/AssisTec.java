@@ -1,13 +1,13 @@
 public class AssisTec extends Funcionario {
     
-    public AssisTec (String n, String m, Gerente spv){
+    public AssisTec (String n, int m, Gerente spv){
         super(n, m);
         this.setSupervisor(spv);
     }
     
     //Atributos
     Gerente supervisor;
-    double bonus;
+    private double bonus;
     
     //Métodos Getters e Setters
     public void setSupervisor (Gerente spv){

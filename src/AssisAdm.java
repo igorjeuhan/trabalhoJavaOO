@@ -1,13 +1,13 @@
 public class AssisAdm extends Funcionario {
     
-    public AssisAdm (String n, String m, Gerente spv) {
+    public AssisAdm (String n, int m, Gerente spv) {
         super(n, m);
         this.setSupervisor(spv);
     }
     
     //Atributos
     Gerente supervisor;
-    double adcNoturno;
+    private double adcNoturno;
     
     //Métodos Getters e Setters
     public void setSupervisor (Gerente spv){

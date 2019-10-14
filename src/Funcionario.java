@@ -2,10 +2,10 @@ public class Funcionario {
     
     //Atributos
     private String nome;
-    private String matricula;
+    private int matricula;
     
     //Método Construtor
-    public Funcionario (String n, String m) {
+    public Funcionario (String n, int m) {
         this.setNome(n);
         this.setMatricula(m);
     }
@@ -19,11 +19,11 @@ public class Funcionario {
         return this.nome;
     }
     
-    public void setMatricula (String m) {
+    public void setMatricula (int m) {
         this.matricula = m;
     }
     
-    public String getMatricula () {
+    public int getMatricula () {
         return this.matricula;
     }
     
