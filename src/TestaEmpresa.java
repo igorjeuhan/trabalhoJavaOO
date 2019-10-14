@@ -2,11 +2,11 @@ public class TestaEmpresa {
     
     public static void main(String[] args) {
         
-        Gerente gt1 = new Gerente("Igor", "qwerty123", "Tecnologia");
-        Gerente gt2 = new Gerente("Paulo", "adbd1234", "RH");
+        Gerente gt1 = new Gerente("Igor", 44565645, "Tecnologia");
+        Gerente gt2 = new Gerente("Paulo", 5456454, "RH");
         
-        AssisAdm assisAdm1 = new AssisAdm("Marcos", "abc123", gt1);
-        AssisTec assisTec1 = new AssisTec("Pedro", "asdfg123", gt2);
+        AssisAdm assisAdm1 = new AssisAdm("Marcos", 5454543, gt1);
+        AssisTec assisTec1 = new AssisTec("Pedro", 897879, gt2);
         
         System.out.println("Assistente Administrativo:");
         System.out.println("Nome: "  + assisAdm1.getNome());

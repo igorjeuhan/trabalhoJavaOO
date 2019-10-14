@@ -1,6 +1,6 @@
 public class AssisTec extends Funcionario {
     
-    public AssisTec (String n, String m, Gerente spv){
+    public AssisTec (String n, int m, Gerente spv){
         super(n, m);
         this.setSupervisor(spv);
     }

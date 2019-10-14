@@ -1,6 +1,6 @@
 public class AssisAdm extends Funcionario {
     
-    public AssisAdm (String n, String m, Gerente spv) {
+    public AssisAdm (String n, int m, Gerente spv) {
         super(n, m);
         this.setSupervisor(spv);
     }

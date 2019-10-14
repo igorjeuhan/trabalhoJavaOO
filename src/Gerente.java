@@ -1,6 +1,6 @@
 public class Gerente extends Funcionario {
     
-    public Gerente (String n, String m, String depResp) {
+    public Gerente (String n, int m, String depResp) {
         super(n, m);
         this.setDepRes(depResp);
     }
