@@ -29,7 +29,8 @@ public class Operario extends Empregado {
     
     @Override
     public double calcularSalario () {
-        return this.getSalarioBase() + ((this.valorProducao * this.comissao) / 100);
+        return this.getSalarioBase() - ((this.getSalarioBase() * this.getImposto()) / 100) + 
+                (this.getSalarioBase() + ((this.valorProducao * this.comissao) / 100));
     }
     
-}
+}   
